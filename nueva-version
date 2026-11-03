@@ -1,0 +1,46 @@
+
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Mi pequeño jardín 🌱</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+  <header>
+    <h2>🌱 Mi pequeño jardín</h2>
+    <nav>
+      <a href="#inicio">Inicio</a>
+      <a href="#plantas">Plantas</a>
+      <a href="#colores">Colores</a>
+    </nav>
+  </header>
+
+  <section class="hero" id="inicio">
+    <p>🌼 BIENVENIDO A NUESTRO JARDÍN 🌼</p>
+    <h1>¡Cada semilla tiene una historia!</h1>
+    <p>Descubre siete plantas y aprende cómo cuidarlas para que crezcan sanas y fuertes.</p>
+    <a class="boton" href="#plantas">Conocer las plantas ↓</a>
+  </section>
+
+  <section id="plantas">
+    <h2>🌿 Nuestras siete plantas</h2>
+    <p>Selecciona una planta para conocerla.</p>
+    <div id="lista-plantas" class="tarjetas"></div>
+  </section>
+
+  <section id="colores">
+    <h2>🎨 Código de colores de las semillas</h2>
+    <p>El color de la punta del lápiz te indica qué semilla corresponde.</p>
+    <div id="lista-colores" class="colores"></div>
+  </section>
+
+  <footer>
+    <p>🌻 Mi pequeño jardín | Cuidemos la naturaleza 🌻</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
